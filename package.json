@@ -1,7 +1,7 @@
 {
   "private": true,
-  "name": "Niklas-Kerl-Portfolio",
-  "homepage": "https://niklaskerl2001.github.io/",
+  "name": "niklas-kerl-portfolio",
+  "homepage": "https://niklaskerl200l.github.io/Niklas-Kerl-Portfolio/",
   "version": "0.1.0",
   "scripts": {
     "build": "react-scripts build",
