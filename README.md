@@ -1,3 +1,8 @@
+GitHub Update
+GitBash
+cd D:\Projekte\Niklas Portfolio\masterPortfolio
+node git_data_fetcher.mjs
+
 <p align="center"> 
     <img src="images/masterportfolio-banner-light.png" align="center" height="150"></img>
 </p>
