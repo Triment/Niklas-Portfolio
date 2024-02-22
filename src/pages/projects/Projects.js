@@ -39,12 +39,12 @@ class Projects extends Component {
                 >
                   {projectsHeader.title}
                 </h1>
-                <p
+                <h3
                   className="projects-header-detail-text subTitle"
-                  style={{ color: theme.secondaryText }}
+                  style={{ color: theme.text }}
                 >
                   {projectsHeader["description"]}
-                </p>
+                </h3>
               </div>
             </div>
           </Fade>

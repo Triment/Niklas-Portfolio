@@ -44,14 +44,14 @@ class Contact extends Component {
                   {ContactData["description"]}
                 </p>
                 <SocialMedia theme={theme} />
-                <div className="resume-btn-div">
+                {/* <div className="resume-btn-div">
                   <Button
                     text="See My Resume"
                     newTab={true}
                     href={greeting.resumeLink}
                     theme={theme}
                   />
-                </div>
+                </div> */}
               </div>
             </div>
           </Fade>
@@ -121,7 +121,7 @@ class Contact extends Component {
                 </p>
                 <div className="address-btn-div">
                   <Button
-                    text="Visit on Google Maps"
+                    text="Besuchen auf Google Maps"
                     newTab={true}
                     href={addressSection.location_map_link}
                     theme={theme}

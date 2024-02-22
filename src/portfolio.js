@@ -9,7 +9,7 @@ const settings = {
 const seo = {
   title: "Niklas Portfolio",
   description:
-    "A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
+    "Eine leidenschaftliche Person, die immer davon lebt, an Endprodukten zu arbeiten, die nachhaltige und skalierbare soziale und technische Systeme entwickeln, um Wirkung zu erzielen.",
   og: {
     title: "Niklas Kerl Portfolio",
     type: "website",
@@ -23,34 +23,26 @@ const greeting = {
   logo_name: "Niklas Kerl",
   nickname: "Niklaskerl2001",
   subTitle:
-    "A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
+    "Eine leidenschaftliche Person, die immer davon lebt, an Endprodukten zu arbeiten, die nachhaltige und skalierbare soziale und technische Systeme entwickeln, um Wirkung zu erzielen.",
   // resumeLink: "https://drive.google.com/file/d/1FL_wydnPF2SWCdw2goYAgZ1KKBx8TpcD/view?usp=sharing", //TODO-Niklas
-  portfolio_repository: "https://github.com/ashutosh1919/masterPortfolio", //TODO-Niklas
+  portfolio_repository:
+    "https://github.com/Niklaskerl200l/Niklas-Kerl-Portfolio",
   githubProfile: "https://github.com/Niklaskerl200l",
 };
 
 const socialMediaLinks = [
-  /* Your Social Media Link */
-  // github: "https://github.com/ashutosh1919",
-  // linkedin: "https://www.linkedin.com/in/ashutosh-hathidara-88710b138/",
-  // gmail: "ashutoshhathidara98@gmail.com",
-  // gitlab: "https://gitlab.com/ashutoshhathidara98",
-  // facebook: "https://www.facebook.com/laymanbrother.19/",
-  // twitter: "https://twitter.com/ashutosh_1919",
-  // instagram: "https://www.instagram.com/layman_brother/"
-
   {
     name: "Github",
     link: "https://github.com/Niklaskerl200l",
     fontAwesomeIcon: "fa-github", // Reference https://fontawesome.com/icons/github?style=brands
     backgroundColor: "#181717", // Reference https://simpleicons.org/?q=github
   },
-  // {
-  //   name: "LinkedIn",
-  //   link: "https://www.linkedin.com/in/ashutosh1919/",
-  //   fontAwesomeIcon: "fa-linkedin-in", // Reference https://fontawesome.com/icons/linkedin-in?style=brands
-  //   backgroundColor: "#0077B5", // Reference https://simpleicons.org/?q=linkedin
-  // },
+  {
+    name: "LinkedIn",
+    link: "https://www.linkedin.com/in/niklas-kerl-1898b22b6/",
+    fontAwesomeIcon: "fa-linkedin-in", // Reference https://fontawesome.com/icons/linkedin-in?style=brands
+    backgroundColor: "#0077B5", // Reference https://simpleicons.org/?q=linkedin
+  },
   {
     name: "YouTube",
     link: "https://www.youtube.com/@Niklaskerl2001",
@@ -81,6 +73,12 @@ const socialMediaLinks = [
     fontAwesomeIcon: "fa-instagram", // Reference https://fontawesome.com/icons/instagram?style=brands
     backgroundColor: "#E4405F", // Reference https://simpleicons.org/?q=instagram
   },
+  {
+    name: "Mail",
+    link: "mailto:Niklaskerl03@web.de",
+    fontAwesomeIcon: "fas fa-envelope", // Reference https://fontawesome.com/icons/instagram?style=brands
+    backgroundColor: "#FFCD00", // Reference https://simpleicons.org/?q=instagram
+  },
 ];
 
 const skills = {
@@ -89,129 +87,103 @@ const skills = {
       title: "Fachinformatiker für Anwendungsentwicklung",
       fileName: "DataScienceImg",
       skills: [
-        "⚡ Developing highly scalable production ready models for various deeplearning and statistical use cases", //TODO-Niklas
-        "⚡ Experience of working with Computer Vision and NLP projects", //TODO-Niklas
-        "⚡ Complex quantitative modelling for dynamic forecasting and time series analysis", //TODO-Niklas
+        "⚡ Entwicklung Kunden naher Anwendungen",
+        "⚡ Erweiterung bestehender Systeme mit Skripten / Addons",
+        "⚡ Ausarbeitung & Konzeptionierung neuer Herausforderungen",
+        "⚡ Entwicklung & Arbeit mit Datenbanken",
+        "⚡ Einrichtung, Erweiterung, Anpassung DMS Syteme (ELO Digital Office)",
+        "⚡ Kunden Support",
       ],
       softwareSkills: [
+        // https://icon-sets.iconify.design/?query=css
         {
-          skillName: "Tensorflow",
-          fontAwesomeClassname: "logos-tensorflow",
-          style: {
-            backgroundColor: "transparent",
-          },
+          skillName: "Google Apps Script",
+          fontAwesomeClassname: "vscode-icons:file-type-appscript",
         },
         {
-          skillName: "Keras",
-          fontAwesomeClassname: "simple-icons:keras",
+          skillName: "Google Sheets",
+          fontAwesomeClassname: "simple-icons:googlesheets",
           style: {
-            backgroundColor: "white",
-            color: "#D00000",
-          },
-        },
-        {
-          skillName: "PyTorch",
-          fontAwesomeClassname: "logos-pytorch",
-          style: {
-            backgroundColor: "transparent",
-          },
-        },
-        {
-          skillName: "Python",
-          fontAwesomeClassname: "ion-logo-python",
-          style: {
-            backgroundColor: "transparent",
-            color: "#3776AB",
-          },
-        },
-        {
-          skillName: "Deeplearning",
-          imageSrc: "deeplearning_ai_logo.png",
-        },
-      ],
-    },
-    {
-      title: "Technischer Assistent für Informatik",
-      fileName: "FullStackImg",
-      skills: [
-        "⚡ Building responsive website front end using React-Redux", //TODO-Niklas
-        "⚡ Developing mobile applications using Flutter, React Native and solo android apps using Kotlin", //TODO-Niklas
-        "⚡ Creating application backend in Node, Express & Flask", //TODO-Niklas
-      ],
-      softwareSkills: [
-        {
-          skillName: "HTML5",
-          fontAwesomeClassname: "simple-icons:html5",
-          style: {
-            color: "#E34F26",
-          },
-        },
-        {
-          skillName: "CSS3",
-          fontAwesomeClassname: "fa-css3",
-          style: {
-            color: "#1572B6",
-          },
-        },
-        {
-          skillName: "Sass",
-          fontAwesomeClassname: "simple-icons:sass",
-          style: {
-            color: "#CC6699",
+            color: "#34a853",
           },
         },
         {
           skillName: "JavaScript",
-          fontAwesomeClassname: "simple-icons:javascript",
-          style: {
-            backgroundColor: "#000000",
-            color: "#F7DF1E",
-          },
+          fontAwesomeClassname: "skill-icons:javascript",
         },
         {
-          skillName: "ReactJS",
-          fontAwesomeClassname: "simple-icons:react",
-          style: {
-            color: "#61DAFB",
-          },
+          skillName: "SQL",
+          fontAwesomeClassname: "tabler:sql",
         },
         {
-          skillName: "NodeJS",
-          fontAwesomeClassname: "simple-icons:node-dot-js",
-          style: {
-            color: "#339933",
-          },
+          skillName: "C#",
+          fontAwesomeClassname: "devicon:csharp",
         },
         {
-          skillName: "NPM",
-          fontAwesomeClassname: "simple-icons:npm",
-          style: {
-            color: "#CB3837",
-          },
+          skillName: "C++",
+          fontAwesomeClassname: "devicon:cplusplus",
         },
         {
-          skillName: "Yarn",
-          fontAwesomeClassname: "simple-icons:yarn",
-          style: {
-            color: "#2C8EBB",
-          },
+          skillName: "Lua",
+          fontAwesomeClassname: "logos:lua",
         },
         {
-          skillName: "Gatsby",
-          fontAwesomeClassname: "simple-icons:gatsby",
-          style: {
-            color: "#663399",
-          },
+          skillName: "PHP",
+          fontAwesomeClassname: "simple-icons:php",
         },
         {
-          skillName: "Flutter",
-          fontAwesomeClassname: "simple-icons:flutter",
-          style: {
-            color: "#02569B",
-          },
+          skillName: "Vue",
+          fontAwesomeClassname: "logos:vue",
+        },
+        {
+          skillName: "HTML",
+          fontAwesomeClassname: "akar-icons:html-fill",
+        },
+        {
+          skillName: "CSS",
+          fontAwesomeClassname: "akar-icons:css-fill",
+        },
+        {
+          skillName: ".Net",
+          fontAwesomeClassname: "skill-icons:dotnet",
+        },
+        {
+          skillName: "Typo3",
+          fontAwesomeClassname: "vscode-icons:file-type-typo3",
+        },
+        {
+          skillName: "CMD",
+          fontAwesomeClassname: "codicon:terminal-cmd",
         },
       ],
     },
+    // {
+    //   title: "Technischer Assistent für Informatik",
+    //   fileName: "FullStackImg",
+    //   skills: [
+    //     "⚡ Building responsive website front end using React-Redux", //TODO-Niklas
+    //     "⚡ Developing mobile applications using Flutter, React Native and solo android apps using Kotlin", //TODO-Niklas
+    //     "⚡ Creating application backend in Node, Express & Flask", //TODO-Niklas
+    //   ],
+    //   softwareSkills: [
+
+    //     {
+    //       skillName: "Sass",
+    //       fontAwesomeClassname: "simple-icons:sass",
+    //       style: {
+    //         color: "#CC6699",
+    //       },
+    //     },
+
+    //     {
+    //       skillName: "ReactJS",
+    //       fontAwesomeClassname: "simple-icons:react",
+    //       style: {
+    //         color: "#61DAFB",
+    //       },
+    //     }
+    //   ],
+    // },
     // {
     //   title: "Cloud Infra-Architecture",
     //   fileName: "CloudInfraImg",
@@ -384,10 +356,7 @@ const degrees = {
       logo_path: "SBSZ_Logo.jpeg", //TODO-Niklas
       alt_name: "SBSZ Logo",
       duration: "2022 - 2025",
-      descriptions: [
-        "⚡ I have studied basic software engineering subjects like DS, Algorithms, DBMS, OS, CA, AI etc.", //TODO-Niklas
-        "⚡ Apart from this, I have done courses on Deep Learning, Data Science, Cloud Computing and Full Stack Development.", //TODO-Niklas
-      ],
+      descriptions: ["⚡ Notendurchschnitt: 1,4"],
       website_link: "https://sbsz-hsp.de/",
     },
     {
@@ -397,9 +366,8 @@ const degrees = {
       alt_name: "DHGE Logo",
       duration: "2021 - 2022",
       descriptions: [
-        "⚡ I have taken varity of courses related to Artificial Intelligence which correspond to Explainable AI, Graph Machine Learning, Computer Vision etc.", //TODO-Niklas
-        "⚡ Apart from this, I have also done research assistantship. As part of it, I have worked on creating new algorithms in Graph ML and Network Science.", //TODO-Niklas
-        "⚡ During my time at university, I was also associated with multimedia department. As part of it, I have worked on some documentry films and interviews.", //TODO-Niklas
+        "⚡ Studium Abbruch nach 2 von 6 Semestern.",
+        "⚡ Vertiefte Erfahrung mit C und HTML",
       ],
       website_link: "https://www.dhge.de/DHGE/",
     },
@@ -410,9 +378,9 @@ const degrees = {
       alt_name: "TÜV Logo",
       duration: "2018 - 2021",
       descriptions: [
-        "⚡ I have taken varity of courses related to Artificial Intelligence which correspond to Explainable AI, Graph Machine Learning, Computer Vision etc.", //TODO-Niklas
-        "⚡ Apart from this, I have also done research assistantship. As part of it, I have worked on creating new algorithms in Graph ML and Network Science.", //TODO-Niklas
-        "⚡ During my time at university, I was also associated with multimedia department. As part of it, I have worked on some documentry films and interviews.", //TODO-Niklas
+        "⚡ Notendurchschnitt: 1,6",
+        "⚡ Vertiefte Erfahrung mit C# und C++",
+        "⚡ Abschluss als Klassen bester im Fach Programmieren",
       ],
       website_link:
         "https://www.semper-schulen.de/berufsbildende-schulen/hoehere-berufsfachschule-fuer-gestaltung-und-informatik-in-gera/unser-erfolgskonzept/",
@@ -424,9 +392,9 @@ const degrees = {
       alt_name: "FSR Logo",
       duration: "2012 - 2018",
       descriptions: [
-        "⚡ I have taken varity of courses related to Artificial Intelligence which correspond to Explainable AI, Graph Machine Learning, Computer Vision etc.", //TODO-Niklas
-        "⚡ Apart from this, I have also done research assistantship. As part of it, I have worked on creating new algorithms in Graph ML and Network Science.", //TODO-Niklas
-        "⚡ During my time at university, I was also associated with multimedia department. As part of it, I have worked on some documentry films and interviews.", //TODO-Niklas
+        "⚡ Notendurchschnitt: 2,1",
+        "⚡ Platz 2 an der Mathematikolympiade 2014 Landkreis Greiz",
+        "⚡ 3-facher Podium Platz Schacholympiade Ronneburg ",
       ],
       website_link:
         "https://www.semper-schulen.de/berufsbildende-schulen/hoehere-berufsfachschule-fuer-gestaltung-und-informatik-in-gera/unser-erfolgskonzept/",
@@ -438,7 +406,7 @@ const certifications = {
   certifications: [
     {
       title: "Microsoft",
-      subtitle: "Microsoft Certifications",
+      subtitle: "Microsoft Zertifikate",
       logo_path: "microsoft_logo.png",
       certificate_link:
         "https://learn.microsoft.com/de-de/users/niklaskerl2001-4447/",
@@ -450,14 +418,13 @@ const certifications = {
 
 // Experience Page
 const experience = {
-  title: "Experience",
-  subtitle: "Work, Internship and Volunteership",
-  description:
-    "I have worked with many evolving startups as ML and DL Developer, Designer and Software Architect. I have also worked with some well established companies mostly as AI Developer. I love organising events and that is why I am also involved with many opensource communities as a representative.",
+  title: "Erfahrung",
+  subtitle: "Arbeit, Praktikum und Freiwilligenarbeit",
+  // description: "I have worked with many evolving startups as ML and DL Developer, Designer and Software Architect. I have also worked with some well established companies mostly as AI Developer. I love organising events and that is why I am also involved with many opensource communities as a representative.",
   header_image_path: "experience.svg",
   sections: [
     {
-      title: "Work",
+      title: "Arbeit",
       work: true,
       experiences: [
         {
@@ -475,7 +442,7 @@ const experience = {
       ],
     },
     {
-      title: "Internships",
+      title: "Praktika",
       experiences: [
         {
           title: "Technischer Assistent für Informatik",
@@ -536,10 +503,8 @@ const experience = {
 
 // Projects Page
 const projectsHeader = {
-  title: "Projects",
-  //TODO-Niklas
-  description:
-    "My projects makes use of vast variety of latest technology tools. My best experience is to create Data Science projects and deploy them to web applications using cloud infrastructure.",
+  title: "Projekte",
+  description: "Meine GitHub Projekte",
   avatar_image_path: "projects_image.svg",
 };
 
@@ -599,10 +564,10 @@ const publications = {
 // Contact Page
 const contactPageData = {
   contactSection: {
-    title: "Contact Me",
+    title: "Kontakt",
     profile_image_path: "Niklas Kerl.png",
     description:
-      "I am available on almost every social media. You can message me, I will reply within 24 hours.",
+      "Ich bin in fast allen sozialen Medien verfügbar. Sie können mir eine Nachricht senden, ich antworte innerhalb von 24 Stunden.",
   },
   blogSection: {
     //TODO-Niklas
@@ -613,7 +578,7 @@ const contactPageData = {
     // avatar_image_path: "blogs_image.svg",
   },
   addressSection: {
-    title: "Address",
+    title: "Adresse",
     subtitle: "Gottlieb-Daimler-Straße 16, 07552 Gera", //TODO-Niklas
     locality: "Gera",
     country: "DE",
