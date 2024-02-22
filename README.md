@@ -1,7 +1,14 @@
-GitHub Update
+GitHub Daten auf Webseite Updaten
 GitBash
 cd D:\Projekte\Niklas Portfolio\masterPortfolio
 node git_data_fetcher.mjs
+
+Veröffentlichen Git + Web
+GitBash
+cd D:\Projekte\Niklas Portfolio\masterPortfolio
+npm run build
+cd build/
+git init
 
 <p align="center"> 
     <img src="images/masterportfolio-banner-light.png" align="center" height="150"></img>
