@@ -1,6 +1,33 @@
 {
-  "closed": 0,
-  "data": [],
+  "closed": 1,
+  "data": [
+    {
+      "id": "MDU6SXNzdWU3NjE2MzAwMzU=",
+      "closed": true,
+      "title": "We can't hear each other",
+      "createdAt": "2020-12-10T21:26:35Z",
+      "url": "https://github.com/henkelmax/simple-voice-chat/issues/5",
+      "number": 5,
+      "assignees": {
+        "nodes": [
+          {
+            "avatarUrl": "https://avatars.githubusercontent.com/u/13237524?u=d1c4f06be8bdc1fe6147dd76bbef68a2138ccf58&v=4",
+            "name": "Max Henkel",
+            "url": "https://github.com/henkelmax"
+          }
+        ]
+      },
+      "repository": {
+        "name": "simple-voice-chat",
+        "url": "https://github.com/henkelmax/simple-voice-chat",
+        "owner": {
+          "login": "henkelmax",
+          "avatarUrl": "https://avatars.githubusercontent.com/u/13237524?u=d1c4f06be8bdc1fe6147dd76bbef68a2138ccf58&v=4",
+          "url": "https://github.com/henkelmax"
+        }
+      }
+    }
+  ],
   "open": 0,
-  "totalCount": 0
+  "totalCount": 1
 }

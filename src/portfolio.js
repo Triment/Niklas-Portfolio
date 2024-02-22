@@ -19,13 +19,12 @@ const seo = {
 
 //Home Page
 const greeting = {
-  title: "NiklasKerl",
-  logo_name: "NiklasKerl",
-  nickname: "layman_brother",
+  title: "Niklas Kerl",
+  logo_name: "Niklas Kerl",
+  nickname: "Niklaskerl2001",
   subTitle:
     "A passionate individual who always thrives to work on end to end products which develop sustainable and scalable social and technical systems to create impact.",
-  resumeLink:
-    "https://drive.google.com/file/d/1FL_wydnPF2SWCdw2goYAgZ1KKBx8TpcD/view?usp=sharing", //TODO-Niklas
+  // resumeLink: "https://drive.google.com/file/d/1FL_wydnPF2SWCdw2goYAgZ1KKBx8TpcD/view?usp=sharing", //TODO-Niklas
   portfolio_repository: "https://github.com/ashutosh1919/masterPortfolio", //TODO-Niklas
   githubProfile: "https://github.com/Niklaskerl200l",
 };
