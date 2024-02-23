@@ -435,8 +435,7 @@ const experience = {
           duration: "Okt 2021 - Now",
           location: "Gera, Tühringen",
           //TODO-Niklas
-          description:
-            "I am working on automating healthcare products. The projects involve automation for process improvements and for significantly enhancing the profits. I am currently working on Cancer Survival and Reoccurence Prediction. Our goal is to make AI system which scales and removes doctor dependency as much as possible.",
+          description: "Arbeit mit DMS - ELO Digital Office",
           color: "#0879bf",
         },
       ],
