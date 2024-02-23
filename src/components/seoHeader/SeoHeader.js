@@ -45,10 +45,10 @@ function SeoHeader() {
     email: mail,
     telephone: contactPageData.phoneSection?.subtitle,
     sameAs: sameAs,
-    jobTitle: "Anwendungsentwickler", //job.title,
+    jobTitle: "Anwendungsentwickler", //job.title, //TODO-Niklas
     worksFor: {
       "@type": "Organization",
-      name: "Nexory GmbH", //job.company,
+      name: "Nexory GmbH", //job.company,  //TODO-Niklas
     },
     address: {
       "@type": "PostalAddress",
