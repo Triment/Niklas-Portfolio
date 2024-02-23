@@ -25,6 +25,15 @@
           "iconifyClass": "simple-icons:docker"
         }
       ]
+    },
+    {
+      "id": "R_kgDOLWMrew",
+      "name": "Buben-Voice-Chat",
+      "createdAt": "2024-02-21T22:33:41Z",
+      "url": "https://github.com/Niklaskerl200l/Buben-Voice-Chat",
+      "description": "TTT 3D Proximity Voice Chat",
+      "isFork": false,
+      "languages": []
     }
   ]
 }
