@@ -9,8 +9,10 @@ cd D:\Projekte\Niklas Portfolio\masterPortfolio
 npm run build
 cd build/
 git init
+npm run deploy
 
-ggf? npm run deploy
+Starten Lokal
+npm start
 
 <p align="center"> 
     <img src="images/masterportfolio-banner-light.png" align="center" height="150"></img>

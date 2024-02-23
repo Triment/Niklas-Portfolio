@@ -2,11 +2,11 @@
   "data": [
     {
       "id": "R_kgDOLWpIzQ",
-      "name": "Niklas-Kerl-Portfolio",
+      "name": "Niklas-Portfolio",
       "createdAt": "2024-02-22T19:18:10Z",
-      "url": "https://github.com/Niklaskerl200l/Niklas-Kerl-Portfolio",
+      "url": "https://github.com/Niklaskerl200l/Niklas-Portfolio",
       "description": "🔥 The Complete Customizable Software Developer Portfolio Template which lets you showcase your work and provides each and every detail about you as Software Developer.",
-      "isFork": true,
+      "isFork": false,
       "languages": [
         {
           "name": "JavaScript",

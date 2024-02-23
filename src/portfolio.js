@@ -161,9 +161,9 @@ const skills = {
     //   title: "Technischer Assistent für Informatik",
     //   fileName: "FullStackImg",
     //   skills: [
-    //     "⚡ Building responsive website front end using React-Redux", //TODO-Niklas
-    //     "⚡ Developing mobile applications using Flutter, React Native and solo android apps using Kotlin", //TODO-Niklas
-    //     "⚡ Creating application backend in Node, Express & Flask", //TODO-Niklas
+    //     "⚡ Building responsive website front end using React-Redux",
+    //     "⚡ Developing mobile applications using Flutter, React Native and solo android apps using Kotlin",
+    //     "⚡ Creating application backend in Node, Express & Flask",
     //   ],
     //   softwareSkills: [
 
@@ -353,7 +353,7 @@ const degrees = {
     {
       title: "Staatliches Berufsschulzentrum Hermsdorf",
       subtitle: "Fachinformatiker für Anwendungsentwicklung",
-      logo_path: "SBSZ_Logo.jpeg", //TODO-Niklas
+      logo_path: "SBSZ_Logo.png",
       alt_name: "SBSZ Logo",
       duration: "2022 - 2025",
       descriptions: ["⚡ Notendurchschnitt: 1,4"],
@@ -374,7 +374,7 @@ const degrees = {
     {
       title: "Höhere Berufsfachschule TÜV Rheinland Gera",
       subtitle: "Technischer Assistent für Informatik",
-      logo_path: "TÜV_logo.svg",
+      logo_path: "TÜV_logo.png",
       alt_name: "TÜV Logo",
       duration: "2018 - 2021",
       descriptions: [
@@ -388,7 +388,7 @@ const degrees = {
     {
       title: "Staatliche Regelschule 'Friedrich Schiller'",
       subtitle: "Realschulabschluss",
-      logo_path: "FSR_Logo.jpeg", //TODO-Niklas
+      logo_path: "FSR_Logo.png",
       alt_name: "FSR Logo",
       duration: "2012 - 2018",
       descriptions: [
@@ -434,8 +434,7 @@ const experience = {
           logo_path: "Logo-Nexory.png", //TODO-Niklas
           duration: "Okt 2021 - Now",
           location: "Gera, Tühringen",
-          //TODO-Niklas
-          description: "Arbeit mit DMS - ELO Digital Office",
+          description: "Arbeit mit DMS - ELO Digital Office", //TODO-Niklas
           color: "#0879bf",
         },
       ],
@@ -450,9 +449,7 @@ const experience = {
           logo_path: "Logo-Nexory.png",
           duration: "Mär 2021 - Sep 2021",
           location: "Gera, Tühringen",
-          //TODO-Niklas
-          description:
-            "Building new features on the backend recommendation system, specifically ranking algorithms for Ads that touch hundreds of millions of people around the world. Improving online and offline content ranking algorithms by performing hard sample data replays for training steps.",
+          description: "Arbeit mit DMS - ELO Digital Office", //TODO-Niklas
           color: "#000000",
         },
         {
@@ -462,9 +459,7 @@ const experience = {
           logo_path: "Logo-Nexory.png",
           duration: "Aug 2020 - Feb 2021",
           location: "Gera, Tühringen",
-          //TODO-Niklas
-          description:
-            "Building new features on the backend recommendation system, specifically ranking algorithms for Ads that touch hundreds of millions of people around the world. Improving online and offline content ranking algorithms by performing hard sample data replays for training steps.",
+          description: "Arbeit mit DMS - ELO Digital Office", //TODO-Niklas
           color: "#000000",
         },
         {
@@ -474,15 +469,13 @@ const experience = {
           logo_path: "KIJ_Logo.png",
           duration: "Jun 2019 - Aug 2019",
           location: "Jena, Tühringen",
-          //TODO-Niklas
-          description:
-            "Building new features on the backend recommendation system, specifically ranking algorithms for Ads that touch hundreds of millions of people around the world. Improving online and offline content ranking algorithms by performing hard sample data replays for training steps.",
+          description: "Updaten Büro Block von Window 7 auf Windows 10",
           color: "#000000",
         },
       ],
     },
-    // {      //TODO-Niklas
-    //   title: "Volunteerships",
+    // {
+    //   title: "Volunteerships", //TODO-Niklas
     //   experiences: [
     //     {
     //       title: "Google Explore ML Facilitator",
@@ -515,42 +508,9 @@ const publicationsHeader = {
 };
 
 const publications = {
-  //TODO-Niklas
   data: [
     // {
     //   id: "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzQ=",
-    //   name: "Artificial Intelligence Paper",
-    //   createdAt: "2020-03-06T16:26:54Z",
-    //   description: "Paper Written on Artificial Intelligence published in xyz ",
-    //   url:
-    //     "https://www.andrewng.org/publications/building-high-level-features-using-large-scale-unsupervised-learning/",
-    // },
-    // {
-    //   id: "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzi=",
-    //   name: "Artificial Intelligence Paper",
-    //   createdAt: "2020-03-06T16:26:54Z",
-    //   description: "Paper Written on Artificial Intelligence published in xyz ",
-    //   url:
-    //     "https://www.andrewng.org/publications/building-high-level-features-using-large-scale-unsupervised-learning/",
-    // },
-    // {
-    //   id: "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNze=",
-    //   name: "Artificial Intelligence Paper",
-    //   createdAt: "2020-03-06T16:26:54Z",
-    //   description: "Paper Written on Artificial Intelligence published in xyz ",
-    //   url:
-    //     "https://www.andrewng.org/publications/building-high-level-features-using-large-scale-unsupervised-learning/",
-    // },
-    // {
-    //   id: "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzt=",
-    //   name: "Artificial Intelligence Paper",
-    //   createdAt: "2020-03-06T16:26:54Z",
-    //   description: "Paper Written on Artificial Intelligence published in xyz ",
-    //   url:
-    //     "https://www.andrewng.org/publications/building-high-level-features-using-large-scale-unsupervised-learning/",
-    // },
-    // {
-    //   id: "MDEwOlJlcG9zaXRvcnkyNDU0NjcyNzb=",
     //   name: "Artificial Intelligence Paper",
     //   createdAt: "2020-03-06T16:26:54Z",
     //   description: "Paper Written on Artificial Intelligence published in xyz ",
@@ -569,7 +529,6 @@ const contactPageData = {
       "Ich bin in fast allen sozialen Medien verfügbar. Sie können mir eine Nachricht senden, ich antworte innerhalb von 24 Stunden.",
   },
   blogSection: {
-    //TODO-Niklas
     // title: "Blogs",
     // subtitle:
     //   "For individual fundamental empowerment, I like to write powerful lessons that create impact on each of the reader individually to change the core of their character.",
