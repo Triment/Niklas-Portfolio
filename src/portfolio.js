@@ -589,8 +589,8 @@ const contactPageData = {
     location_map_link: "https://maps.app.goo.gl/NWGAUWdGj8A4w4Hw5", //TODO-Niklas
   },
   phoneSection: {
-    title: "",
-    subtitle: "",
+    title: "Telefon",
+    subtitle: "0365 20500560",
   },
 };
 
