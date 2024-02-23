@@ -49,12 +49,12 @@ const socialMediaLinks = [
     fontAwesomeIcon: "fa-youtube", // Reference https://fontawesome.com/icons/youtube?style=brands
     backgroundColor: "#FF0000", // Reference https://simpleicons.org/?q=youtube
   },
-  {
-    name: "Gmail",
-    link: "mailto:Niklaskerl2001@gmail.com",
-    fontAwesomeIcon: "fa-google", // Reference https://fontawesome.com/icons/google?style=brands
-    backgroundColor: "#D14836", // Reference https://simpleicons.org/?q=gmail
-  },
+  // {
+  //   name: "Gmail",
+  //   link: "mailto:Niklaskerl2001@gmail.com",
+  //   fontAwesomeIcon: "fa-google", // Reference https://fontawesome.com/icons/google?style=brands
+  //   backgroundColor: "#D14836", // Reference https://simpleicons.org/?q=gmail
+  // },
   {
     name: "X-Twitter",
     link: "https://twitter.com/Niklaskerl01",
