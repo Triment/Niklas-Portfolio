@@ -1,10 +1,8 @@
 GitHub Daten auf Webseite Updaten
-GitBash
 cd D:\Projekte\Niklas Portfolio\masterPortfolio
 node git_data_fetcher.mjs
 
 Veröffentlichen Git + Web
-GitBash
 cd D:\Projekte\Niklas Portfolio\masterPortfolio
 npm run build
 cd build/
