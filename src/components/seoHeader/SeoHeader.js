@@ -24,7 +24,7 @@ function SeoHeader() {
     .find((media) => media.link.startsWith("mailto"))
     .link.substring("mailto:".length);
   let job = experience.sections
-    ?.find((section) => section.work)
+    ?.find((section) => section.Arbeit)
     ?.experiences?.at(0);
 
   let credentials = [];
